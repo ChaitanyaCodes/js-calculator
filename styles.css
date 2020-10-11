@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(130deg, #c5f9ca, #ffcc83);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#formContainer {
+  position: relative;
+  width: 400px;
+  height: 250px;
+  padding: 50px 40px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.2);
+}
+
+#formCal .inputBox {
+  display: absolute;
+  width: 100%;
+  height: 20px;
+  background: transparent;
+  padding: 10px;
+  border: 1px solid #111;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+#value1 {
+  margin-bottom: 30px;
+}
+
+#operator {
+  margin-left: 150px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+#formCal button {
+  background: #2196f3;
+  color: #fff;
+  border: none;
+  height: 40px;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  max-width: 120px;
+}
+
+#result {
+  text-align: end;
+}
